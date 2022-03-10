@@ -52,3 +52,45 @@
             bottom: 0;
             width: 90%;
           }
+
+           /*Portfolio*/
+          .work-image{
+            position: relative;
+          
+          }
+          .wonger{
+            width: 80%;
+            height: 80%;
+            border: 2px solid #fff;
+            margin-left: 10%;
+            margin-top: 10%;
+          }
+          .wonger h1{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 30%;
+            font-style:oblique;
+          
+          }
+            .icon{
+            padding-left: 20px;
+          }
+          #design{
+            display: none;
+          }
+          #development{
+            display: none;
+          }
+          #product-mgt{
+            display: none;
+          }
+          .work1-overlay,.work2-overlay,.work3-overlay,.work4-overlay,.work5-overlay,.work6-overlay,.work7-overlay,.work8-overlay {
+              display: none;
+              background-color: black;
+              opacity: 0.7;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              width: 90%;
+          
+          }
