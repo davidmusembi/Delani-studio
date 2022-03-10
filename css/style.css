@@ -4,6 +4,7 @@
   body{
     overflow-x: hidden;
   }
+   /*Home page*/
   .container-full{
     background-image: url("../img/backgrounds/h_img.jpg");
     background-position: center;
@@ -24,9 +25,18 @@
       padding-top: 15%;
       padding-bottom: 1%;
     }
+    /*about us page*/
     .aboutUs{
         padding-top:5%;
         padding-bottom: 3%;
         text-align: center;
         font-size: 16px;
+       }
+        /*Services Page*/
+        .services{
+            background-image: url("../img/backgrounds/s_image.jpg");
+            color: white;
+            text-align: center;
+            padding-top: 10%;
+            padding-bottom: 7%;
         }
