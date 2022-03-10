@@ -15,8 +15,18 @@
   .landing{
     padding-top: 20%;
     }
+    .landing h1{
+        font-weight: 600;
+        font-size: 45px;
+      }
     
     #mouse{
       padding-top: 15%;
       padding-bottom: 1%;
     }
+    .aboutUs{
+        padding-top:5%;
+        padding-bottom: 3%;
+        text-align: center;
+        font-size: 16px;
+        }
