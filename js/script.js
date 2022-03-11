@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    //Creating a jquery to open the hover effect on the what we page
+    //Creating a jquery effect  to open the hover effect on the what we do page
     $(".design").click(function() {
         $("#design, .design").toggle("slow");
       });
@@ -20,7 +20,7 @@ $(document).ready(function(){
         $(".product-mgt, #product-mgt").toggle("slow");
       });
 
-      //Creating a jquery to show a name of the card in services when clicked
+      //Creating a jquery effect to show a name of the  portfolio image when clicked in portfolio page
       $('.work1').mouseover(function() {
         $('.work1-overlay').show();
       }).mouseout(function() {
@@ -62,5 +62,51 @@ $(document).ready(function(){
         $(".work8-overlay").hide();
       });
 
-});
+      //Creating a function to validate the submit button on contact page
+      var contactForm = $("#contact-form");
+
+        contactForm.on("submit", function(e) {
+         e.preventDefault();
+         let formValid = validateContactForm();
+         if (formValid) {
+             const name = $("input.name").val();
+ 
+             alert(`Thank you ${name}, we have received your message. Thank you for reaching out to us.`);
+             clearForm();
+         }
+        });
+        function validateContactForm() {
+            let isFormValid = true;
+            const formInputs = contactForm.find("input,textarea");
+        
+            formInputs.each(function() {
+                if (!$(this).val()) {
+                    $(this).addClass("is-invalid");
+                    isFormValid = false;
+                }
+            });
+            return isFormValid;
+        }
+        
+        function removeFormErrors() {
+            contactForm.find("input,textarea").on("keydown", function() {
+                if ($(this).hasClass("is-invalid")) {
+                    $(this).removeClass("is-invalid");
+                }
+            });
+        }
+        
+        function clearForm() {
+            contactForm.find("input,textarea").each(function() {
+                $(this).val("");
+            });
+          }
+    
+          removeFormErrors();
+    
+     });
+
+
+
+
 
