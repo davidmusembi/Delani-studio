@@ -12,7 +12,7 @@ This is a site of a company that showcase the project done by individuals progra
 David Musembi - Student at Moringa software development prep
 
 ### Description
-  The web app allows the user to navigate throughout the site and see what Delani does and what they stand for. These details can be viewed when you click on the images  and on the "what we do" section. in case of any inquiries, the site allows the user to send in messages and an alert is issued on reception of the message.There are also images of some of the best photos th studio has taken and each has a description which disappears and appears as you hover on the images in the portfolio section.
+  The website allows the user to navigate throughout the site and see what Delani does and what they stand for. These details can be viewed when you click on the images  and on the "what we do" section. in case of any inquiries, the site allows the user to send in messages and an alert is issued on reception of the message.There are also images of some of the best photos th studio has taken and each has a description which disappears and appears as you hover on the images in the portfolio section.
 ### Features
 This App features the below in summary:
 * A landing page with image and decscription of the website.
