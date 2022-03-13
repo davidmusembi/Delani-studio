@@ -1,13 +1,18 @@
 # Delani-Studio
-This is a site of a company that show case the project done by individuals programmer and can host their work by posting their projects and its also a studio of invension.
+This is a site of a company that showcase the project done by individuals programmer and can host their work by posting their projects and its also a studio of invension.
 
 ### A Screenshot of the Delani-Studio Project 
+![Screenshot from 2022-03-11 11-38-04](https://user-images.githubusercontent.com/51710726/157832916-68320814-115e-4d73-9e90-7ddaec9646bf.png)
+![Screenshot from 2022-03-11 11-38-13](https://user-images.githubusercontent.com/51710726/157832938-c16eeb11-9712-4364-b5d8-88993d6581f0.png)
+![Screenshot from 2022-03-11 11-38-32](https://user-images.githubusercontent.com/51710726/157832964-56096145-5a1e-4e46-83c5-be2fcb3c3854.png)
+![Screenshot from 2022-03-11 11-38-45](https://user-images.githubusercontent.com/51710726/157833087-06f1c3ef-3b40-4dd4-a66b-572cc90d9ef0.png)
+
 
 ## Author
 David Musembi - Student at Moringa software development prep
 
 ### Description
-  The web app allows the user to navigate throughout the site and see what Delani does and what they stand for. These details can be viewed when you click on the images  and on the "what we do" section. in case of any inquiries, the site allows the user to send in messages and an alert is issued on reception of the message.There are also images of some of the best photos th studio has taken and each has a description which disappears and appears as you hover on the images in the portfolio section.
+  The website allows the user to navigate throughout the site and see what Delani does and what they stand for. These details can be viewed when you click on the images  and on the "what we do" section. in case of any inquiries, the site allows the user to send in messages and an alert is issued on reception of the message.There are also images of some of the best photos th studio has taken and each has a description which disappears and appears as you hover on the images in the portfolio section.
 ### Features
 This App features the below in summary:
 * A landing page with image and decscription of the website.
